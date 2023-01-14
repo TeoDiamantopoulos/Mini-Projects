@@ -24,7 +24,7 @@ html.dark {
 }
 
 body {          
-  background-color: #fff;
+  
   font-family: "Heebo", sans-serif;
   display: flex;
   align-items: center;
@@ -71,6 +71,7 @@ body {
   height: 65px;
   width: 3px;
   transform-origin: bottom center;
+  transition: all 0.5s ease-in;
 }
 
 .needle.hour {
